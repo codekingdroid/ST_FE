@@ -20,6 +20,10 @@ input {
     box-shadow: 0 2px 8px grey;
 }
 
+ul {
+    background-color: rgba(169, 169, 169, 0.37);
+}
+
 li {
     text-align: left;
     font-size: 40px;
@@ -29,4 +33,5 @@ li {
 li:hover {
     text-decoration: line-through;
     color: black;
+    background-color: rgba(169, 169, 169, 0.616);
 }
