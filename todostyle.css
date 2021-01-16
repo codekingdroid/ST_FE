@@ -1,0 +1,32 @@
+html {
+    font-family: Helevetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    padding-top: 12px;
+    width: 500px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: crimson;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px grey;
+}
+
+li {
+    text-align: left;
+    font-size: 40px;
+    color: chocolate;
+}
+
+li:hover {
+    text-decoration: line-through;
+    color: black;
+}
