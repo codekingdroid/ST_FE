@@ -26,8 +26,9 @@ h1 {
 .split {
     position: absolute;
     width: 50%;
-    height: 100%;
+    height: 98.5%;
     overflow: hidden;
+    border: 5px solid bisque;
 }
 
 .split.left .button:hover {
