@@ -20,8 +20,9 @@ form {
      border: 3px solid #f1f1f1;
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
-     margin-left: 450px;
-     margin-right: 450px;
+     margin: auto;
+     width: 60%;
+     max-width: 500px;
  }
  
 form #ByPass-Me {
