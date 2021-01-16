@@ -4,21 +4,34 @@ body, html {
  }
 
 body {
-     font-family: Helvetica, sans-serif;
-     color: bisque
+     font-family: 'Helvetica', sans-serif;
+     color: bisque;
  }
   
+.bg {
+     background-image: url("2.jpg");
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
 form {
      border: 3px solid #f1f1f1;
      border-radius: 5px;
      box-shadow: 0 0 9px 4px black;
-	 margin: auoto;
-     position: absolute;
+     margin-left: 450px;
+     margin-right: 450px;
  }
  
 form #ByPass-Me {
      text-align: center;
      white-space: nowrap;
+ }
+
+.container {
+     padding: 40px;
+     background-image: url(4.jpg);
  }
  
 #uname, #pswd {
@@ -26,26 +39,22 @@ form #ByPass-Me {
      padding: 12px 20px;
      margin: 8px 0;
      display: inline-block;
-     border: 1px solid #ccc;
+     border: 1px solid rgb(202, 193, 193);
      border-radius: 5px;
      box-sizing: border-box;
  }
  
- button {
-     background-color: blue;
-     color: white;
-     padding: 12px 18px;
-     margin: 8px 0;
-     border: none;
-     cursor: pointer;
-     font-size: large;
-     width: 100%;
- }
+button {
+    background-color: #5952bdc7;
+    color: white;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    width: 100%;
+}
  
- button:hover {
+button:hover {
      background-color: blueviolet;
- }
-
- .container {
-     padding: 40px;
  }
