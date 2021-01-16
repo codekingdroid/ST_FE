@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calstyle.css">
+    <script src="caljs.js"></script>
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+    <br/>
+    <div class="buttons">
+
+        <br /><br /><br/><br/>
+        <form name='Calculator' class='calc'>
+            <input type='text' placeholder='Enter your Input    ' maxlength='0' name='answer' autocomplete='off' id='ans' value=''>
+            <br><br>
+            <input type='button' name='%' value='%' onclick="show('%')">
+            <input type="button" name="pi" alt='pi' value="π" onclick="show('π')">
+            <input type="button" name="pow" alt='sq' value="x^2" onclick="show('x^2')">
+            <input type="button" name="log" value='log' onclick="show('log')">
+            <br><br>
+            <input type="reset" name="clear" value="C">
+            <input type="button" name="remove" value="<~" onclick="show('<~')">
+            <input type="button" name="!" value="!" onclick=" fact(Calculator.answer.value)">
+            <input type="button" name="/" alt='/' value="÷" onclick="show('/')">
+            <br><br>
+            <input type="button" id='num7' name="7" value="7" onclick="dispNum('7')">
+            <input type="button" id='num8' name="8" value="8" onclick="dispNum('8')">
+            <input type="button" id='num9' name="9" value="9" onclick="dispNum('9')">
+            <input type="button" name="X" value="X" onclick="show('*')">
+            <br><br>
+            <input type="button" id='num4' name="4" value="4" onclick="dispNum('4')">
+            <input type="button" id='num5' name="5" value="5" onclick="dispNum('5')">
+            <input type="button" id='num6' name="6" value="6" onclick="dispNum('6')">
+            <input type="button" name="-" value="-" onclick="show('-')">
+            <br><br>
+            <input type="button" id='num1' name="1" value="1" onclick="dispNum('1')">
+            <input type="button" id='num2' name="2" value="2" onclick="dispNum('2')">
+            <input type="button" id='num3' name="3" value="3" onclick="dispNum('3')">
+            <input type="button" name="+" value="+" onclick="show('+')">
+            <br><br>
+
+            <input type="button" id='num0' name="0" value="0" onclick="dispNum('0')">
+            <input type="button" name="." value="." onclick="show('.');">
+            <input type="button" id='equal' name="equal" value="=" onclick="show('=')">
+        </form>
+    </div>
+    <pre onmouseover="myFunction()" id="copyright"> ⋯           ☉           ↵ </pre>
+
+</body>
+
+</html>
