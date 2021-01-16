@@ -1,1 +1,51 @@
+body, html {
+     height: 100%;
+     margin: 0;
+ }
 
+body {
+     font-family: Helvetica, sans-serif;
+     color: bisque
+ }
+  
+form {
+     border: 3px solid #f1f1f1;
+     border-radius: 5px;
+     box-shadow: 0 0 9px 4px black;
+	 margin: auoto;
+     position: absolute;
+ }
+ 
+form #ByPass-Me {
+     text-align: center;
+     white-space: nowrap;
+ }
+ 
+#uname, #pswd {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     box-sizing: border-box;
+ }
+ 
+ button {
+     background-color: blue;
+     color: white;
+     padding: 12px 18px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     font-size: large;
+     width: 100%;
+ }
+ 
+ button:hover {
+     background-color: blueviolet;
+ }
+
+ .container {
+     padding: 40px;
+ }
